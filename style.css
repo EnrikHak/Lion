@@ -45,3 +45,74 @@ body {
     margin: 0;
     background: #406343;
 }
+
+/* Start Header */
+
+.wrapper {
+    width: 1828px;
+    margin: 0 auto;
+}
+
+.header_blocks {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_logo {
+    margin-top: 32px;
+    width: 146px;
+    height: 60px;
+}
+
+.header_nav {
+    width: 350px;
+    height: 48px;
+}
+
+.header_list {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    margin-right: 45px;
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.header_list:last-child {
+    margin-right: 0;
+}
+
+.header_link {
+font-size: 25px;
+line-height: 38px;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+.function_block {
+    width: 165px;
+    height: 35px;  
+}
+
+.pump_block {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-between;
+    margin-right: 40px;
+    padding: 0;
+}
+
+.pump_block:last-child {
+    margin-right: 0;
+}
+
+.pump_link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* End Header */
